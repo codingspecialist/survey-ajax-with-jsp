@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
